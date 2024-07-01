@@ -1,0 +1,110 @@
+/* Your existing styles remain unchanged */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3b5998;
+  }
+  
+  .login-container,
+  .signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    display: block;
+  }
+  
+  .logo {
+    color: #3b5998;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  button {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #166fe5;
+  }
+  
+  .separator {
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .separator:before,
+  .separator:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .separator:before {
+    left: 0;
+  }
+  
+  .separator:after {
+    right: 0;
+  }
+  
+  .or {
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -11px;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .error-msg {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
